@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+    background: #000;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+.heading {
+    text-align: center;
+    color: #fff;
+}
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.card {
+    background: #ffffff;
+    width: 220px;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.card--image {
+    height: 10rem;
+}
+
+.card--name {
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.card--details {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
